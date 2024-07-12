@@ -3,7 +3,7 @@ from tabulate import tabulate
 import functions as f
 
 
-with psycopg2.connect(database="clients_db", user="postgres", password="romanes8") as conn:
+with psycopg2.connect(database="clients_db", user="postgres", password="postgres") as conn:
     print("Выберите действие: ")
     print("1 - создать таблицы БД")
     print("2 - добавить клиента")
